@@ -68,12 +68,20 @@ footer .container-fluid{
 .closebtn:hover {
     color: black;
 }
-#gauche button {
+
+#gauche #wifi {
     position: absolute;
     top: 218px;
     background: blue;
     color: #FFF;
     left: 591px;
+}
+#gauche #hotspot {
+  position: absolute;
+  top: 207px;
+  background: blue;
+  color: #FFF;
+  left: 188px;
 }
 .gauche img {
     width: 600px;
@@ -88,6 +96,16 @@ footer .container-fluid{
   top: 34px;
   left: 406px;
   padding: 15em;
+  background: radial-gradient(rgba(51, 255, 0, 0.95), rgba(230, 246, 49, 0.57), rgba(252, 108, 69, 0.4));
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+}
+
+#gauche .wifi2 {
+  top: 54px;
+  left: 60px;
+  padding: 12em;
   background: radial-gradient(rgba(51, 255, 0, 0.95), rgba(230, 246, 49, 0.57), rgba(252, 108, 69, 0.4));
   position: absolute;
   border-radius: 50%;
