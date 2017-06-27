@@ -65,9 +65,9 @@
 	    </div>
 	  </div>
 		<div class="btnGroup myFlex" role="group" aria-label="...">
-			<button type="button" class="btn btn-default btn-danger">bouton supplémentaire</button>
-			<button type="button" class="btn btn-default btn-danger">Revoir le contexte</button>
-			<button type="button" class="btn btn-default btn-danger">Solutions</button>
+			<button type="button" class="btn btn-default btn-danger" id="next">Suivant</button>
+			<button type="button" class="btn btn-default btn-danger" id="context">Revoir le contexte</button>
+			<button type="button" class="btn btn-default btn-danger" id="solutions">Solutions</button>
 		</div>
 	</section>
 	<footer>
@@ -107,6 +107,19 @@
 			$("#hotspot").click(function(){
 				$("#gauche").append("<div class='wifi2'></div>");
 			});
+
+            $("#next").click(function(){
+                window.location.href = "#";
+            });
+
+            $("#context").click(function(){
+                window.location.href = "#";
+            });
+
+            $("#solutions").click(function(){
+                window.location.href = "#";
+            });
+
 		});
 	</script>
 </body>
