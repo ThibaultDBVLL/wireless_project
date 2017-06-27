@@ -64,9 +64,9 @@
 	      </div>
 	    </div>
 	    <div class="btn-group" role="group" aria-label="...">
-	      <button type="button" class="btn btn-default"><a href="#">Suivant</a></button>
-	      <button type="button" class="btn btn-default"><a href="#">Revoir le contexte</a></button>
-	      <button type="button" class="btn btn-default"><a href="#">Solutions</a></button>
+	      <button type="button" class="btn btn-default" id="next">Suivant</button>
+	      <button type="button" class="btn btn-default" id="context">Revoir le contexte</button>
+	      <button type="button" class="btn btn-default" id="solutions">Solutions</button>
 	    </div>
 	  </div>
 	</section>
@@ -106,6 +106,19 @@
 			$("#hotspot").click(function(){
 				$("#gauche").append("<div class='wifi2'></div>");
 			});
+
+            $("#next").click(function(){
+                window.location.href = "#";
+            });
+
+            $("#context").click(function(){
+                window.location.href = "#";
+            });
+
+            $("#solutions").click(function(){
+                window.location.href = "#";
+            });
+
 		});
 	</script>
 </body>
