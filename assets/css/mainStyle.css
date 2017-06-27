@@ -154,7 +154,10 @@ footer .container-fluid{
 .dropdown:hover .dropbtn {
     background-color: #c7c7c7;
 }
-
+.logoHead{
+	padding: 0.5em 0
+0.5em 0;
+}
 /*=======Fil d'ARIANE=======*/
 .fil{
   background-image: url("../img/barre.png");
@@ -174,8 +177,8 @@ footer .container-fluid{
 }
 .blackBox{
 	background-color: black;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 40px;
 	padding-left: 7em;
 }
 .active{
