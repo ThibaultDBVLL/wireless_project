@@ -8,24 +8,26 @@
 	<link rel="stylesheet" href="assets/font">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/mainStyle.css">
-	<script src="assets/js/bootstrap"></script>
-	<script src="assets/js/jquery.js"> </script>
+	<!-- <script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.js"> </script> -->
 </head>
 <body>
 	<header class="container">
 		<div class="row">
+
 			<div class="collapse navbar-collapse" id="nav">
 				<img src="assets/img/logo_360.jpg" alt="logo;jpg"> <ul class="nav navbar-nav navbar-right">
 					<li> <a href="#"> Accueil </a> </li>
 					<li> <a href="#"> Le reseau </a> </li>
-					<li> <a href="#"> Lozere Wireless <span class="glyphicon glyphicon-chevron-down"> </span> </a>
-						<ul>
-							<li> <a href="#"> Wi-Fi Territorial </a> </li>
-							<li> <a href="#"> Rejoindre le reseau </a> </li>
-							<li> <a href="#"> Histoire du reseau </a> </li>
-							<li> <a href="#"> Apprendre le Wireless </a> </li>
-						</ul>
-					</li>
+					<div class="dropdown">
+					  <li class="dropbtn"><a href="#"> Lozere Wireless </a></li>
+					  <div class="dropdown-content">
+					    <a href="#">Wi-Fi Territorial</a>
+					    <a href="#">Rejoindre le reseau</a>
+					    <a href="#">Histoire du reseau</a>
+							<a href="#">Apprendre le Wireless</a>
+					  </div>
+					</div>
 					<li> <a href="#"> Le Partenariat </a> </li>
 					<li> <a href="#"> Contact </a> </li>
 				</ul>
