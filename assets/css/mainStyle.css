@@ -132,3 +132,20 @@ footer .container-fluid{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+/*====Bande sous le sous Fil d'Ariane===*/
+ .empty-strip{
+   height: 15px;
+   background-color: grey;
+ }
+
+/*====Bande blanche boutons ====*/
+.btn-group{
+  background-color: white;
+  width: 1300px;
+}
+
+/*====Couleur boutons ===*/
+.btn-default{
+  background-color: #e96656;
+}
