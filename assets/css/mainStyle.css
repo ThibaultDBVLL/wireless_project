@@ -108,9 +108,17 @@ footer .container-fluid{
 	background-color: white;
 	padding: 3px 10px 5px 10px;
 	border-radius: 14px;
+	font-weight: bolder;
 }
 .blackBox{
 	background-color: black;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 7em;
+}
+.active{
+	background-color: #E96656;
+}
+.visited{
+	background-color: #808080;
 }
