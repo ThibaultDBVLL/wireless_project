@@ -1,35 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Wireless project</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title> Projet Wireless </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/font">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/mainStyle.css">
+	<script src="assets/js/bootstrap"></script>
+	<script src="assets/js/jquery.js"> </script>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="container-fluid">Navbar</div>
-    <div class="row">
-      <div class="col-sm-8" id="gauche">
-        <a href="http://placeholder.com"><img src="http://via.placeholder.com/720x550"></a>
-      </div>
-
-      <div class="col-sm-4" id="droite">
-        <h2 id="instructions-title">Instructions</h2>
-      </div>
+	<header class="container">
+		<div class="row">
+			<div class="collapse navbar-collapse" id="nav">
+				<img src="assets/img/wifi.png" alt="logo;jpg"> <ul class="nav navbar-nav navbar-right">
+					<li> <a href="#"> Accueil </a> </li>
+					<li> <a href="#"> Le reseau </a> </li>
+					<li> <a href="#"> Lozere Wireless <span class="glyphicon glyphicon-chevron-down"> </span> </a>
+						<ul>
+							<li> <a href="#"> Wi-Fi Territorial </a> </li>
+							<li> <a href="#"> Rejoindre le reseau </a> </li>
+							<li> <a href="#"> Histoire du reseau </a> </li>
+							<li> <a href="#"> Apprendre le Wireless </a> </li>
+						</ul>
+					</li>
+					<li> <a href="#"> Le Partenariat </a> </li>
+					<li> <a href="#"> Contact </a> </li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section>
+		<!-- FIL d'ARIANE ====================================== -->
+		<div class="blackBox">
+			<div class="fil">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+			</div>
+		</div>
+		<!-- FIL d'ARIANE fin =================================== -->
+		<div class="container-fluid">
+	    <div class="alert">
+	      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+	      <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
     </div>
+	    <div class="row">
+	      <div class="col-sm-8" id="gauche">
+	        <img src="assets\img\CaptureHouse.PNG" alt="house1">
+	        <button id="wifi" href="#">Wifi</button>
+					<button hidden="hidden" id="hotspot" href="#">hotspot</button>
+	      </div>
+	      <div class="col-sm-4" id="droite">
+	        <h2 id="instructions-title">Instructions</h2>
+	      </div>
+	    </div>
+	    <div class="btn-group" role="group" aria-label="...">
+	      <button type="button" class="btn btn-default">bouton supplémentaire</button>
+	      <button type="button" class="btn btn-default">Revoir le contexte</button>
+	      <button type="button" class="btn btn-default">Solutions</button>
+	    </div>
+	    <div id="fil d'ariane">
+	    </div>
+	  </div>
+	  <script type="text/javascript" src="assets/scripts/app.js"></script>
+	</section>
+	<footer>
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3" id="carte"> <img src="assets/img/carte-acceslozere.png"> </div>
+			<div class="col-sm-3">
+				<img src="assets/img/LD.jpg" id='ld'>
+				<p> Lozère Développement <br>
+				04 66 45 33 00 <br>
+				contact@lozere-developpement.com </p>
+			</div>
+			<div class="col-sm-3">
+				<img src="assets/img/tourise.jpg" id="tourise">
+				<p> Lozère tourisme <br>
+				04 66 65 60 00 <br>
+				cdt@lozere-tourisme.com </p>
+			</div>
+			<div class="col-sm-3" id="block-g">
+				<p> SIte réalisé par <br>
+				 Lozère Développement <br>
+				Zerif Lite developed by ThemeIsle </p>
+			</div>
+		</div>
+	</footer>
 
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">bouton supplémentaire</button>
-      <button type="button" class="btn btn-default">Revoir le contexte</button>
-      <button type="button" class="btn btn-default">Solutions</button>
-    </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#wifi").click(function(){
+					$("#gauche").append("<div class='wifi1'></div>");
+					$("#hotspot").show();
+			});
 
-    <div id="fil d'ariane">
-      
-    </div>
-  </div>
-  <script type="text/javascript" src="assets/scripts/app.js"></script>
+			$("#hotspot").click(function(){
+				$("#gauche").append("<div class='wifi2'></div>");
+			});
+		});
+	</script>
 </body>
 </html>
