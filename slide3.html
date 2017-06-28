@@ -65,6 +65,14 @@
 	    <div class="row">
 	      <div class="col-sm-8" id="gauche">
 	        <img id="house" src="assets\img\exo2.jpg" alt="house1">
+					<a><img id="wifi2" src="assets\img\hotspot.png" alt="box"></a>
+ 				 <img id="aoe5" src="assets\img\aoe.png" alt="aoe">
+ 				 <button class="btn btn-warning" id="hotspot4" href="#">hotspot</button>
+ 				 <img id="aoe6" src="assets\img\aoe.png" alt="aoe">
+ 				 <button class="btn btn-warning" id="hotspot5" href="#">hotspot2</button>
+ 				 <img id="aoe7" src="assets\img\aoe.png" alt="aoe">
+ 				 <button class="btn btn-warning" id="hotspot6" href="#">hotspot3</button>
+ 				 <img id="aoe8" src="assets\img\aoe.png" alt="aoe">
 	      </div>
 	      <div class="col-sm-4" id="droite">
 	        <h2 id="instructions-title">Instructions</h2>
@@ -104,13 +112,18 @@
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$("#wifi").click(function(){
-					$("#gauche").append("<div class='wifi1'></div>");
-					$("#hotspot").show();
+			$("#wifi2").click(function(){
+					$("#aoe5").toggle();
 			});
 
-			$("#hotspot").click(function(){
-				$("#gauche").append("<div class='wifi2'></div>");
+			$("#hotspot4").click(function(){
+				$("#aoe6").toggle();
+			});
+			$("#hotspot5").click(function(){
+				$("#aoe7").toggle();
+			});
+			$("#hotspot6").click(function(){
+				$("#aoe8").toggle();
 			});
 
 			$("#back").click(function(){
