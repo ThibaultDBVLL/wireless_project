@@ -272,10 +272,10 @@ footer .r-fluid{
 #droite{
 	background-color: #282828;
 	color: white;
-	height: 504px;
-	width: 31.8%;
+	height: 500px;
+	width: 34%;
 	margin-right: 0.2em;
-	margin-left: 0.2em;
+	margin-left: -2em;
 	margin-bottom: 1.2em;
 	border-radius: 1%;
 }
