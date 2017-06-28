@@ -66,14 +66,14 @@ footer .r-fluid{
 }
 /*=========CSS JUAN===========*/
 .alert {
-    padding: 200px;
-    margin: 20px;
-    background-color: rgba(37, 71, 159, 0.73);
-    color: white;
-    position: absolute;
-    top: 0px;
-    z-index: 1;
-    border-radius: 15px;
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	position: absolute;
+	top: 164px;
+	z-index: 1;
+	left: 14px;
+	width: 830px;
+	height: 504px;
 }
 .closebtn {
     margin-left: 15px;
@@ -90,18 +90,33 @@ footer .r-fluid{
 }
 
 #gauche #wifi {
-    position: absolute;
-    top: 218px;
-    background: blue;
-    color: #FFF;
-    left: 591px;
+	position: absolute;
+	top: 216px;
+	color: #FFF;
+	left: 589px;
+	font-size: 10px;
 }
 #gauche #hotspot {
+	display: none;
   position: absolute;
+	font-size: 10px;
   top: 207px;
-  background: blue;
   color: #FFF;
-  left: 188px;
+  left: 194px;
+}
+#gauche #hotspot2 {
+	position: absolute;
+	color: #FFF;
+	top: 432px;
+	left: 448px;
+	font-size: 10px;
+}
+#gauche #hotspot3 {
+	position: absolute;
+	color: #FFF;
+	left: 767px;
+	top: 96px;
+	font-size: 10px;
 }
 .gauche img {
     width: 600px;
@@ -197,7 +212,7 @@ footer .r-fluid{
 }
 .blackBox{
 	background-color: black;
-	padding-top: 9px;
+	padding-top: 14px;
 	padding-bottom: 40px;
 	padding-left: 7em;
 }
