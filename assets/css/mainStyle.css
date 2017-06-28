@@ -273,7 +273,9 @@ footer .r-fluid{
 	background-color: #282828;
 	color: white;
 	height: 504px;
-	margin-top: -4px;
-	margin-left: -13px;
+	width: 31.8%;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	margin-bottom: 1.2em;
 	border-radius: 1%;
 }
