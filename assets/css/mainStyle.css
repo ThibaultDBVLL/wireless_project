@@ -74,9 +74,21 @@ footer .r-fluid{
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
-	top: 168px;
+	top: 160px;
 	z-index: 1;
-	left: 15px;
+	left: 24px;
+	width: 830px;
+	height: 500px;
+	border-radius: 0px;
+}
+
+#alert1 {
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	position: absolute;
+	top: 160px;
+	z-index: 1;
+	left: 24px;
 	width: 830px;
 	height: 500px;
 }
@@ -133,6 +145,10 @@ footer .r-fluid{
 	display: inline-block;
 	position: relative;
 	border: solid 12px white;
+}
+
+#gauche #houseindex {
+	 width: 830px;
 }
 #gauche #aoe1 {
 	display: none;
