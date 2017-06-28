@@ -172,6 +172,30 @@ footer .r-fluid{
 	z-index: 1;
 	font-size: 10px;
 }
+#gauche #hotspot7 {
+	position: absolute;
+	font-size: 10px;
+	top: 236px;
+	color: #FFF;
+	z-index: 1;
+	left: 194px;
+}
+#gauche #hotspot8 {
+	position: absolute;
+	color: #FFF;
+	top: 302px;
+	left: 710px;
+	z-index: 1;
+	font-size: 10px;
+}
+#gauche #hotspot9 {
+	position: absolute;
+	color: #FFF;
+	left: 546px;
+	top: 140px;
+	z-index: 1;
+	font-size: 10px;
+}
 #gauche .house {
 	width: 830px;
 	height: 500px;
@@ -199,6 +223,14 @@ footer .r-fluid{
 	position: absolute;
 	top: 335px;
 	left: 204px;
+	width: 40px;
+	z-index: 1;
+	cursor: grab;
+}
+#gauche #wifi3 {
+	position: absolute;
+	top: 423px;
+	left: 148px;
 	width: 40px;
 	z-index: 1;
 	cursor: grab;
@@ -271,6 +303,39 @@ footer .r-fluid{
 	top: 28px;
 	width: 400px;
 	height: 100px;
+}
+#gauche #aoe9 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: -91px;
+	top: 180px;
+	width: 534px;
+}
+
+#gauche #aoe10 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 26px;
+	top: 44px;
+	width: 400px;
+}
+#gauche #aoe11 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 546px;
+	top: 124px;
+	width: 400px;
+}
+#gauche #aoe12 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 382px;
+	top: -58px;
+	width: 400px;
 }
 
 /*=======NAVBAR DROPDOWN JUAN=======*/
