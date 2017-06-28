@@ -21,6 +21,9 @@ header div li ul li {
 header div li:hover ul li{
 	display: block;
 }
+.marge{
+	padding-bottom:15px
+}
 /* =========FIN NAVIGUATION========= */
 /* =========BODY========= */
 #block-central{
@@ -28,6 +31,10 @@ header div li:hover ul li{
 }
 /* =========FIN BODY========= *
 /* =========FOOTER========= */
+.myFlex{
+	display:flex;
+	justify-content: space-around;
+}
 #carte img{
 	width: 90%;
 }
@@ -35,15 +42,28 @@ header div li:hover ul li{
 	padding-top: 20px;
 }
 
-footer .container-fluid{
+footer .r-fluid{
 	background-color: #272727;
 	color: #939393;
 }
 #block-g{
-	background-color: black;
+	background-color:#171717;
 	color: #939393;
+	height: 17em;
+	width: 19em;
+	padding-top: 3em;
 }
-
+#block-g >img{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	padding-bottom: 2.5em;
+}
+.griffe{
+	color: #808080;
+	text-align: center;
+	font-size: 16px;
+}
 /*=========CSS JUAN===========*/
 .alert {
     padding: 200px;
@@ -154,7 +174,10 @@ footer .container-fluid{
 .dropdown:hover .dropbtn {
     background-color: #c7c7c7;
 }
-
+.logoHead{
+	padding: 0.5em 0
+0.5em 0;
+}
 /*=======Fil d'ARIANE=======*/
 .fil{
   background-image: url("../img/barre.png");
@@ -165,16 +188,24 @@ footer .container-fluid{
   display:flex;
   justify-content: space-between;
 }
-.fil > span{
+.base{
   color: black;
 	background-color: white;
 	padding: 3px 10px 5px 10px;
 	border-radius: 14px;
+	font-weight: bolder;
 }
 .blackBox{
 	background-color: black;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 9px;
+	padding-bottom: 40px;
+	padding-left: 7em;
+}
+.active{
+	background-color: #E96656;
+}
+.visited{
+	background-color: #808080;
 }
 
 /*====Bande sous le sous Fil d'Ariane===*/
@@ -184,9 +215,11 @@ footer .container-fluid{
  }
 
 /*====Bande blanche boutons ====*/
-.btn-group{
+.btnGroup{
   background-color: white;
-  width: 1600px;
+  width: 100%;
+	height: 60px;
+	padding: 5px;
 }
 
 /*====Couleur boutons ===*/

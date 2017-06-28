@@ -48,7 +48,7 @@
 		</div>
 		<!-- FIL d'ARIANE fin =================================== -->
 		<div class="empty-strip"></div>
-		<div class="container-fluid marge">
+		<div class="container-fluid">
 	    <div class="alert">
 	      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 	      <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
@@ -63,12 +63,12 @@
 	        <h2 id="instructions-title">Instructions</h2>
 	      </div>
 	    </div>
+	    <div class="btn-group" role="group" aria-label="...">
+	      <button type="button" class="btn btn-default">bouton supplémentaire</button>
+	      <button type="button" class="btn btn-default">Revoir le contexte</button>
+	      <button type="button" class="btn btn-default">Solutions</button>
+	    </div>
 	  </div>
-		<div class="btnGroup myFlex" role="group" aria-label="...">
-			<button type="button" class="btn btn-default btn-danger" id="next">Suivant</button>
-			<button type="button" class="btn btn-default btn-danger" id="context">Revoir le contexte</button>
-			<button type="button" class="btn btn-default btn-danger" id="solutions">Solutions</button>
-		</div>
 	</section>
 	<footer>
 		<div class="container-fluid">
@@ -87,10 +87,9 @@
 				cdt@lozere-tourisme.com </p>
 			</div>
 			<div class="col-sm-3" id="block-g">
-				<img src="assets/img/log.jpg" alt="logos">
-				<p class="griffe"> SIte réalisé par</p>
-				 <p class="griffe">Lozère Développement </p>
-				<p class="griffe">Zerif Lite developed by ThemeIsle</p>
+				<p> SIte réalisé par <br>
+				 Lozère Développement <br>
+				Zerif Lite developed by ThemeIsle </p>
 			</div>
 		</div>
 	</footer>
@@ -122,6 +121,5 @@
 
 		});
 	</script>
-	<script type="text/javascript" src="assets/scripts/app.js"></script>
 </body>
 </html>
