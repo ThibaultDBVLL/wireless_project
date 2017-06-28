@@ -62,7 +62,7 @@ footer .r-fluid{
 
 #block-footer {
 
-	background-color: #272727; 
+	background-color: #272727;
 }
 .griffe{
 	color: #808080;
@@ -216,15 +216,9 @@ footer .r-fluid{
 	font-weight: bolder;
 }
 .blackBox{
-<<<<<<< HEAD
 	background-color: #272727;
-	padding-top: 14px;
-	padding-bottom: 40px;
-=======
-	background-color: black;
 	padding-top: 23px;
 	padding-bottom: 23px;
->>>>>>> ff08d32e041fc09f8367893594e24cc58f8de4af
 	padding-left: 7em;
 }
 .active{
