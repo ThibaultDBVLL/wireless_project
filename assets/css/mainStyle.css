@@ -246,3 +246,13 @@ footer .r-fluid{
 .white-left{
   width: 5px;
 }
+
+/*====Cadre noir instructions ====*/
+#droite{
+	background-color: #282828;
+	color: white;
+	height: 504px;
+	margin-top: -4px;
+	margin-left: -13px;
+	border-radius: 1%;
+}
