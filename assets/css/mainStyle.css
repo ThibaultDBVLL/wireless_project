@@ -59,6 +59,11 @@ footer .r-fluid{
 	margin-right: auto;
 	padding-bottom: 2.5em;
 }
+
+#block-footer {
+
+	background-color: #272727;
+}
 .griffe{
 	color: #808080;
 	text-align: center;
@@ -69,11 +74,23 @@ footer .r-fluid{
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
-	top: 168px;
+	top: 160px;
 	z-index: 1;
 	left: 24px;
 	width: 830px;
-	height: 498px;
+	height: 500px;
+	border-radius: 0px;
+}
+
+#alert1 {
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	position: absolute;
+	top: 160px;
+	z-index: 1;
+	left: 24px;
+	width: 830px;
+	height: 500px;
 }
 .closebtn {
     margin-left: 15px;
@@ -129,22 +146,26 @@ footer .r-fluid{
 	position: relative;
 	border: solid 12px white;
 }
+
+#gauche #houseindex {
+	 width: 830px;
+}
 #gauche #aoe1 {
 	display: none;
+	opacity: 0.50;
 	position: absolute;
-	left: 435px;
-	top: 56px;
-	width: 350px;
+	left: 384px;
+	top: 6px;
+	width: 460px;
 }
 
-#gauche .wifi2 {
-  top: 54px;
-  left: 60px;
-  padding: 12em;
-  background: radial-gradient(rgba(51, 255, 0, 0.95), rgba(230, 246, 49, 0.57), rgba(252, 108, 69, 0.4));
-  position: absolute;
-  border-radius: 50%;
-  border: none;
+#gauche #aoe2 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 26px;
+	top: 16px;
+	width: 400px;
 }
 
 /*=======NAVBAR DROPDOWN JUAN=======*/
@@ -211,9 +232,9 @@ footer .r-fluid{
 	font-weight: bolder;
 }
 .blackBox{
-	background-color: black;
-	padding-top: 14px;
-	padding-bottom: 40px;
+	background-color: #272727;
+	padding-top: 23px;
+	padding-bottom: 23px;
 	padding-left: 7em;
 }
 .active{
@@ -252,7 +273,9 @@ footer .r-fluid{
 	background-color: #282828;
 	color: white;
 	height: 504px;
-	margin-right: 0.8em;
-	margin-left: -0.8em;
+	width: 31.8%;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	margin-bottom: 1.2em;
 	border-radius: 1%;
 }

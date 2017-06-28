@@ -59,6 +59,7 @@
 				 <button class="btn btn-primary" id="wifi" href="#">Wifi</button>
 				 <img id="aoe1" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot" href="#">hotspot</button>
+				 <img id="aoe2" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot2" href="#">hotspot2</button>
 				 <button class="btn btn-warning" id="hotspot3" href="#">hotspot3</button>
 			 </div>
@@ -66,12 +67,13 @@
 	        <h2 id="instructions-title">Instructions</h2>
 	      </div>
 	    </div>
-			<div class="btnGroup myFlex" role="group" aria-label="...">
-	      <button type="button" class="btn btn-default">bouton supplémentaire</button>
-	      <button type="button" class="btn btn-default">Revoir le contexte</button>
-	      <button type="button" class="btn btn-default">Solutions</button>
-	    </div>
 	  </div>
+		<div class="btnGroup myFlex" role="group" aria-label="...">
+			<button type="button" class="btn btn-default btn-danger" id="back">Précédent</button>
+			<button type="button" class="btn btn-default" id="context">Revoir le contexte</button>
+			<button type="button" class="btn btn-default" id="solutions">Solutions</button>
+			<button type="button" class="btn btn-default btn-danger" id="next">Suivant</button>
+		</div>
 	</section>
 	<footer>
 		<div class="container-fluid">
@@ -107,14 +109,20 @@
 			});
 
 			$("#hotspot").click(function(){
-				$("#gauche").append("<div class='wifi2'></div>");
+				$("#aoe2").show();
 			});
+
+
+			$("#back").click(function(){
+				window.location.href ="index.html";
+			});
+
             $("#next").click(function(){
-                window.location.href = "#";
+                window.location.href = "slide3.html";
             });
 
             $("#context").click(function(){
-                window.location.href = "#";
+                window.location.reload();
             });
 
             $("#solutions").click(function(){
