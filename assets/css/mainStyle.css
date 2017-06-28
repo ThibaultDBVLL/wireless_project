@@ -29,6 +29,7 @@ header div li:hover ul li{
 #block-central{
 	width: 500px;
 }
+
 /* =========FIN BODY========= *
 /* =========FOOTER========= */
 .myFlex{
@@ -72,7 +73,6 @@ footer .r-fluid{
 	font-size: 16px;
 }
 /*=========CSS JUAN===========*/
-
 #gauche{
 	width: 854px;
 	overflow: hidden;
@@ -122,7 +122,6 @@ footer .r-fluid{
 	cursor:grab;
 }
 #gauche #hotspot {
-	display: none;
   position: absolute;
 	font-size: 10px;
   top: 207px;
@@ -131,7 +130,6 @@ footer .r-fluid{
   left: 194px;
 }
 #gauche #hotspot2 {
-	display: none;
 	position: absolute;
 	color: #FFF;
 	top: 432px;
@@ -140,7 +138,6 @@ footer .r-fluid{
 	font-size: 10px;
 }
 #gauche #hotspot3 {
-	display: none;
 	position: absolute;
 	color: #FFF;
 	left: 760px;
@@ -306,4 +303,7 @@ footer .r-fluid{
 	margin-left: 2.5em;
 	margin-bottom: 1.2em;
 	border-radius: 1%;
+}
+.grey{
+	background-color: #808080;
 }

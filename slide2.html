@@ -15,7 +15,6 @@
 <body>
 	<header class="container">
 		<div class="row">
-
 			<div class="collapse navbar-collapse" id="nav">
 				<img src="assets/img/logo_360.jpg" class="logoHead" alt="logo;jpg">
 				<ul class="nav navbar-nav navbar-right">
@@ -61,7 +60,7 @@
           </br><a href="https://www.electronics-notes.com/articles/antennas-propagation/propagation-overview/wi-fi-coverage-signal-propagation.php">Plus d’informations sur la propagation des ondes wifi (en anglais)</a>
             </div>
         </div>
-	    <div class="row">
+	    <div class="row grey">
 				<div class="col-sm-8" id="gauche">
 				 <img id="house" src="assets\img\housegreygood.PNG" alt="house1">
 				 <a><img id="wifi" src="assets\img\hotspot.png" alt="box"></a>
@@ -111,23 +110,20 @@
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
+
 			$("#wifi").click(function(){
-					$("#aoe1").show();
-					$("#hotspot").show();
-					$("#hotspot2").show();
-					$("#hotspot3").show();
+					$("#aoe1").toggle();
 			});
 
 			$("#hotspot").click(function(){
-				$("#aoe2").show();
+				$("#aoe2").toggle();
 			});
 			$("#hotspot2").click(function(){
-				$("#aoe3").show();
+				$("#aoe3").toggle();
 			});
 			$("#hotspot3").click(function(){
-				$("#aoe4").show();
+				$("#aoe4").toggle();
 			});
-
 
 			$("#back").click(function(){
 				window.location.href ="index.html";
