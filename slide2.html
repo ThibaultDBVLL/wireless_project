@@ -55,8 +55,9 @@
     </div>
 	    <div class="row">
 				<div class="col-sm-8" id="gauche">
-				 <img src="assets\img\CaptureHouse.PNG" alt="house1">
+				 <img id="house" src="assets\img\housegreygood.PNG" alt="house1">
 				 <button class="btn btn-primary" id="wifi" href="#">Wifi</button>
+				 <img id="aoe1" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot" href="#">hotspot</button>
 				 <button class="btn btn-warning" id="hotspot2" href="#">hotspot2</button>
 				 <button class="btn btn-warning" id="hotspot3" href="#">hotspot3</button>
@@ -102,13 +103,14 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#wifi").click(function(){
-					$("#gauche").append("<div class='wifi1'></div>");
+					$("#aoe1").show();
 					$("#hotspot").show();
 			});
 
 			$("#hotspot").click(function(){
 				$("#gauche").append("<div class='wifi2'></div>");
 			});
+
 
 			$("#back").click(function(){
 				window.location.href ="index.html";
