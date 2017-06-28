@@ -148,6 +148,9 @@ footer .r-fluid{
 	z-index: 1;
 	font-size: 10px;
 }
+<<<<<<< HEAD
+#gauche .house {
+=======
 #gauche #hotspot4 {
   position: absolute;
 	font-size: 10px;
@@ -173,10 +176,12 @@ footer .r-fluid{
 	font-size: 10px;
 }
 #gauche #house {
+>>>>>>> ec983683f88d435f9393e0f740156abba6750f6f
 	width: 830px;
+	height: 500px;
 	line-height: 20px;
 	margin-top: 0px;
-	margin-left: 9px;
+	margin-left: 24px;
 	margin-right: 0px;
 	display: inline-block;
 	position: relative;
