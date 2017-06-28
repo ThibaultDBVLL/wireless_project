@@ -69,11 +69,11 @@ footer .r-fluid{
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
-	top: 164px;
+	top: 168px;
 	z-index: 1;
-	left: 14px;
+	left: 24px;
 	width: 830px;
-	height: 504px;
+	height: 498px;
 }
 .closebtn {
     margin-left: 15px;
@@ -108,33 +108,33 @@ footer .r-fluid{
 	position: absolute;
 	color: #FFF;
 	top: 432px;
-	left: 448px;
+	left: 446px;
 	font-size: 10px;
 }
 #gauche #hotspot3 {
 	position: absolute;
 	color: #FFF;
-	left: 767px;
-	top: 96px;
+	left: 760px;
+	top: 100px;
 	font-size: 10px;
+
 }
-.gauche img {
-    width: 600px;
-    line-height: 20px;
-    margin-top: 0px;
-    margin-left: 9px;
-    margin-right:0px;
-    display:inline-block;
-    position:relative;
+#gauche #house {
+	width: 830px;
+	line-height: 20px;
+	margin-top: 0px;
+	margin-left: 9px;
+	margin-right: 0px;
+	display: inline-block;
+	position: relative;
+	border: solid 12px white;
 }
-#gauche .wifi1 {
-  top: 34px;
-  left: 406px;
-  padding: 15em;
-  background: radial-gradient(rgba(51, 255, 0, 0.95), rgba(230, 246, 49, 0.57), rgba(252, 108, 69, 0.4));
-  position: absolute;
-  border-radius: 50%;
-  border: none;
+#gauche #aoe1 {
+	display: none;
+	position: absolute;
+	left: 435px;
+	top: 56px;
+	width: 350px;
 }
 
 #gauche .wifi2 {
@@ -245,4 +245,14 @@ footer .r-fluid{
 
 .white-left{
   width: 5px;
+}
+
+/*====Cadre noir instructions ====*/
+#droite{
+	background-color: #282828;
+	color: white;
+	height: 504px;
+	margin-top: -4px;
+	margin-left: -13px;
+	border-radius: 1%;
 }
