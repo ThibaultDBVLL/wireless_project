@@ -57,12 +57,14 @@
 	    <div class="row">
 				<div class="col-sm-8" id="gauche">
 				 <img id="house" src="assets\img\housegreygood.PNG" alt="house1">
-				 <button class="btn btn-primary" id="wifi" href="#">Wifi</button>
+				 <a><img id="wifi" src="assets\img\hotspot.png" alt="box"></a>
 				 <img id="aoe1" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot" href="#">hotspot</button>
 				 <img id="aoe2" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot2" href="#">hotspot2</button>
+				 <img id="aoe3" src="assets\img\aoe.png" alt="aoe">
 				 <button class="btn btn-warning" id="hotspot3" href="#">hotspot3</button>
+				 <img id="aoe4" src="assets\img\aoe.png" alt="aoe">
 			 </div>
 	      <div class="col-sm-4" id="droite">
 	        <h2 id="instructions-title">Instructions</h2>
@@ -105,10 +107,18 @@
 			$("#wifi").click(function(){
 					$("#aoe1").show();
 					$("#hotspot").show();
+					$("#hotspot2").show();
+					$("#hotspot3").show();
 			});
 
 			$("#hotspot").click(function(){
 				$("#aoe2").show();
+			});
+			$("#hotspot2").click(function(){
+				$("#aoe3").show();
+			});
+			$("#hotspot3").click(function(){
+				$("#aoe4").show();
 			});
 
 

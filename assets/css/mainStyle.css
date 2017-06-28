@@ -75,7 +75,7 @@ footer .r-fluid{
 	color: white;
 	position: absolute;
 	top: 160px;
-	z-index: 1;
+	z-index: 2;
 	left: 24px;
 	width: 830px;
 	height: 500px;
@@ -108,10 +108,11 @@ footer .r-fluid{
 
 #gauche #wifi {
 	position: absolute;
-	top: 216px;
-	color: #FFF;
-	left: 589px;
-	font-size: 10px;
+	top: 195px;
+	left: 594px;
+	width: 40px;
+	z-index: 1;
+	cursor:grab;
 }
 #gauche #hotspot {
 	display: none;
@@ -122,6 +123,7 @@ footer .r-fluid{
   left: 194px;
 }
 #gauche #hotspot2 {
+	display: none;
 	position: absolute;
 	color: #FFF;
 	top: 432px;
@@ -129,6 +131,7 @@ footer .r-fluid{
 	font-size: 10px;
 }
 #gauche #hotspot3 {
+	display: none;
 	position: absolute;
 	color: #FFF;
 	left: 760px;
@@ -166,6 +169,23 @@ footer .r-fluid{
 	left: 26px;
 	top: 16px;
 	width: 400px;
+}
+#gauche #aoe3 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 280px;
+	top: 242px;
+	width: 400px;
+}
+#gauche #aoe4 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 594px;
+	top: -84px;
+	width: 400px;
+
 }
 
 /*=======NAVBAR DROPDOWN JUAN=======*/
