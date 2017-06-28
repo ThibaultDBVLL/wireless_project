@@ -104,23 +104,20 @@
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
+			
 			$("#wifi").click(function(){
-					$("#aoe1").show();
-					$("#hotspot").show();
-					$("#hotspot2").show();
-					$("#hotspot3").show();
+					$("#aoe1").toggle();
 			});
 
 			$("#hotspot").click(function(){
-				$("#aoe2").show();
+				$("#aoe2").toggle();
 			});
 			$("#hotspot2").click(function(){
-				$("#aoe3").show();
+				$("#aoe3").toggle();
 			});
 			$("#hotspot3").click(function(){
-				$("#aoe4").show();
+				$("#aoe4").toggle();
 			});
-
 
 			$("#back").click(function(){
 				window.location.href ="index.html";
