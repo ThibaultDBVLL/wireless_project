@@ -83,10 +83,22 @@ footer .r-fluid{
 	position: absolute;
 	top: 160px;
 	z-index: 2;
-	left: 24px;
+	left: 9px;
 	width: 830px;
 	height: 500px;
 	border-radius: 0px;
+}
+.alert2 {
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	position: absolute;
+	top: 160px;
+	z-index: 2;
+	left: 24px;
+	width: 830px;
+	height: 507px;
+	border-radius: 0px;
+	padding: 2em;
 }
 
 #alert1 {
