@@ -80,7 +80,7 @@
 			<button type="button" class="btn btn-default btn-danger" id="back">Précédent</button>
 			<button type="button" class="btn btn-default" id="context">Revoir le contexte</button>
 			<button type="button" class="btn btn-default" id="solutions">Solutions</button>
-			<button type="button" class="btn btn-default btn-danger" id="next">recomencer</button>
+			<button type="button" class="btn btn-default btn-danger" id="start">recomencer</button>
 		</div>
 	</section>
 	<footer>
@@ -130,6 +130,10 @@
 
             $("#solutions").click(function(){
                 window.location.href = "#";
+            });
+
+						$("#start").click(function(){
+                window.location.href = "index.html";
             });
 
 		});
