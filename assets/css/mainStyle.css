@@ -29,6 +29,7 @@ header div li:hover ul li{
 #block-central{
 	width: 500px;
 }
+
 /* =========FIN BODY========= *
 /* =========FOOTER========= */
 .myFlex{
@@ -369,4 +370,7 @@ footer .r-fluid{
 	margin-left: 2.5em;
 	margin-bottom: 1.2em;
 	border-radius: 1%;
+}
+.grey{
+	background-color: #808080;
 }
