@@ -64,9 +64,10 @@
 	      </div>
 	    </div>
 	    <div class="btn-group" role="group" aria-label="...">
-	      <button type="button" class="btn btn-default"><a href="#">bouton supplémentaire</a></button>
-	      <button type="button" class="btn btn-default"><a href="#">Revoir le contexte</a></button>
-	      <button type="button" class="btn btn-default"><a href="#">Solutions</a></button>
+	      <button type="button" class="btn btn-default btn-danger" id="back">Précédent</button>
+	      <button type="button" class="btn btn-default" id="context">Revoir le contexte</button>
+	      <button type="button" class="btn btn-default" id="solutions">Solutions</button>
+	      <button type="button" class="btn btn-default btn-danger" id="next">Suivant</button>
 	    </div>
 	  </div>
 	</section>
@@ -107,13 +108,16 @@
 				$("#gauche").append("<div class='wifi2'></div>");
 			});
 
+			$("#back").click(function(){
+				window.location.href ="slide2.html";
+			});
+
             $("#next").click(function(){
-                window.location.href = "#";
+                window.location.href = "slide4.html";
             });
 
             $("#context").click(function(){
-                window.location.href = "#";
-            });
+                window.location.reload();
 
             $("#solutions").click(function(){
                 window.location.href = "#";
