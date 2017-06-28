@@ -34,6 +34,8 @@ header div li:hover ul li{
 .myFlex{
 	display:flex;
 	justify-content: space-around;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #carte img{
 	width: 90%;
@@ -70,12 +72,17 @@ footer .r-fluid{
 	font-size: 16px;
 }
 /*=========CSS JUAN===========*/
+
+#gauche{
+	width: 854px;
+	overflow: hidden;
+}
 .alert {
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
 	top: 160px;
-	z-index: 1;
+	z-index: 2;
 	left: 24px;
 	width: 830px;
 	height: 500px;
@@ -108,10 +115,11 @@ footer .r-fluid{
 
 #gauche #wifi {
 	position: absolute;
-	top: 216px;
-	color: #FFF;
-	left: 589px;
-	font-size: 10px;
+	top: 195px;
+	left: 594px;
+	width: 40px;
+	z-index: 1;
+	cursor:grab;
 }
 #gauche #hotspot {
 	display: none;
@@ -119,22 +127,26 @@ footer .r-fluid{
 	font-size: 10px;
   top: 207px;
   color: #FFF;
+	z-index: 1;
   left: 194px;
 }
 #gauche #hotspot2 {
+	display: none;
 	position: absolute;
 	color: #FFF;
 	top: 432px;
 	left: 446px;
+	z-index: 1;
 	font-size: 10px;
 }
 #gauche #hotspot3 {
+	display: none;
 	position: absolute;
 	color: #FFF;
 	left: 760px;
 	top: 100px;
+	z-index: 1;
 	font-size: 10px;
-
 }
 #gauche #house {
 	width: 830px;
@@ -165,6 +177,22 @@ footer .r-fluid{
 	position: absolute;
 	left: 26px;
 	top: 16px;
+	width: 400px;
+}
+#gauche #aoe3 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 280px;
+	top: 242px;
+	width: 400px;
+}
+#gauche #aoe4 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 594px;
+	top: -84px;
 	width: 400px;
 }
 
@@ -272,10 +300,10 @@ footer .r-fluid{
 #droite{
 	background-color: #282828;
 	color: white;
-	height: 504px;
-	width: 31.8%;
+	height: 500px;
+	width: 34%;
 	margin-right: 0.2em;
-	margin-left: 0.2em;
+	margin-left: 2.5em;
 	margin-bottom: 1.2em;
 	border-radius: 1%;
 }
