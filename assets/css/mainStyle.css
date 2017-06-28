@@ -186,10 +186,15 @@ footer .container-fluid{
 /*====Bande blanche boutons ====*/
 .btn-group{
   background-color: white;
-  width: 1300px;
+  width: 1600px;
 }
 
 /*====Couleur boutons ===*/
 .btn-default{
+  color: white;
   background-color: #e96656;
+}
+
+.white-left{
+  width: 5px;
 }
