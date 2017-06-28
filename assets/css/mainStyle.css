@@ -74,9 +74,21 @@ footer .r-fluid{
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
-	top: 168px;
+	top: 160px;
 	z-index: 1;
-	left: 15px;
+	left: 24px;
+	width: 830px;
+	height: 500px;
+	border-radius: 0px;
+}
+
+#alert1 {
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	position: absolute;
+	top: 160px;
+	z-index: 1;
+	left: 24px;
 	width: 830px;
 	height: 500px;
 }
@@ -134,22 +146,26 @@ footer .r-fluid{
 	position: relative;
 	border: solid 12px white;
 }
+
+#gauche #houseindex {
+	 width: 830px;
+}
 #gauche #aoe1 {
 	display: none;
+	opacity: 0.50;
 	position: absolute;
-	left: 435px;
-	top: 56px;
-	width: 350px;
+	left: 384px;
+	top: 6px;
+	width: 460px;
 }
 
-#gauche .wifi2 {
-  top: 54px;
-  left: 60px;
-  padding: 12em;
-  background: radial-gradient(rgba(51, 255, 0, 0.95), rgba(230, 246, 49, 0.57), rgba(252, 108, 69, 0.4));
-  position: absolute;
-  border-radius: 50%;
-  border: none;
+#gauche #aoe2 {
+	display: none;
+	opacity: 0.50;
+	position: absolute;
+	left: 26px;
+	top: 16px;
+	width: 400px;
 }
 
 /*=======NAVBAR DROPDOWN JUAN=======*/
