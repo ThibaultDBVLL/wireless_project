@@ -66,14 +66,14 @@ footer .r-fluid{
 }
 /*=========CSS JUAN===========*/
 .alert {
-	background-color: rgba(40, 40, 40, 0.98);
+	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	position: absolute;
-	top: 162px;
+	top: 164px;
 	z-index: 1;
 	left: 14px;
 	width: 830px;
-	height: 502px;
+	height: 504px;
 }
 .closebtn {
     margin-left: 15px;
